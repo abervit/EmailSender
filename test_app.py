@@ -17,7 +17,7 @@ email_receiver = "witalij.kaczkowski@gmail.com"
 """Creating a template email information"""
 subject = "Hello it`s a test email"
 body = """
-This is my first Python project I`m happy to email you about.
+This is my first Python project I`m happy to email you about it.
 Hope it works well !!!\n\nBest regards,\nVitaliy
  """
 """Now we creating an instance of this email message library package that we are importing"""
@@ -28,7 +28,7 @@ em["Subject"] = subject
 em.set_content(body) # setting a context of our email
 
 """
-Now we finished our app. Now we going are going to create a context.
+Now we finished our app. We are going to create a context.
 First we need to import SSL and SMT library.
  """
 context = ssl.create_default_context()
